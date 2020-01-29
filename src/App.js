@@ -13,8 +13,8 @@ class App extends Component {
         <TutorialHeader />
         <Content>
           <Switch>
-            <Route exact path="/" compontent={LandingPage} />
-            <Route path="/repos" compontent={RepoPage} />
+            <Route exact path="/" component={LandingPage} />
+            <Route path="/repos" component={RepoPage} />
           </Switch>
         </Content>
       </>
